@@ -668,10 +668,20 @@ $\mathscr{A}_{ij}^- \subseteq A_{ij} \subseteq \mathscr{A}_{ij}^+$ となるよ�
 
 # グループ意思決定の区間 AHP
 
+## 二重区間 PCM の整合化
+
+二重区間 PCM $\mathscr{A} = \left( \left( \mathscr{A}_{ij}^-, \mathscr{A}_{ij}^+ \right) \right)$ から二重区間重要度 $\mathscr{W} = ((W_{ki}^-, W_{ki}^+))_n$ が求められない場合がある.
+
+$\mathscr{A}_{11}$
+
+---
+
+# グループ意思決定の区間 AHP
+
 ## 個人の二重区間 重要度ベクトルの計算
 
 crisp PCM の不整合性を区間重要度ベクトルの幅として表すのと同様に, 個人の区間 PCM の不整合性を二重区間重要度ベクトルとして表すことができる.
-次を満たすような二重区間重要度ベクトル $W = ((W_{ki}^-, W_{ki}^+))_n$ を求める.
+次を満たすような二重区間重要度ベクトル $\mathscr{W} = ((W_{ki}^-, W_{ki}^+))_n$ を求める.
 
 $$
 \frac{W_{ki}^-}{W_{kj}^-} \subseteq A_{kij} \subseteq \frac{W_{ki}^+}{W_{kj}^+}, ~~
